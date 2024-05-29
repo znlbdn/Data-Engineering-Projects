@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jabar_covkab
+    database: project_db
+    schema: jabar_data_schema
+    tables:
+      - name: jabar_covid_kab
+        description: check null from data lake (postgres)

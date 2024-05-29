@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: dim_case
+    columns:
+      - name: case_id
+        data_tests:
+          - unique
+          - not_null
+      - name: status
+        data_tests:
+          - relationships:
+              to: ref('fact_total_case')
+              field: status
+              severity: warn
+  - name: dim_district
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+  - name: dim_province
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
