@@ -20,7 +20,7 @@ Tech in used within this projects are:
 7. Docker
 
 # Data Flow Diagram
-![etl architecture diagram](https://github.com/znlbdn/Data-Engineering-Projects/blob/master/include/assets/data_flow_project.png)
+![etl flow diagram](https://github.com/znlbdn/Data-Engineering-Projects/blob/master/include/assets/data_flow_project.png)
 
 # Tale of Project Content
 1. Setup Google Compute Engine
@@ -146,7 +146,7 @@ by using two command above, now you can open the metabase by using the <external
 
 Access my dashoard here : http://34.101.166.169:3000/public/dashboard/f929f00d-85a7-4dbe-833c-eabe2272b1b2
 
-![etl architecture diagram](https://github.com/znlbdn/Data-Engineering-Projects/blob/master/include/assets/dashboard.png)
+![dashbaord diagram](https://github.com/znlbdn/Data-Engineering-Projects/blob/master/include/assets/dahsboard.png)
 
 
 
